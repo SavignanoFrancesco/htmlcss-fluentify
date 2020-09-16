@@ -15,7 +15,14 @@
 /* .wrapper{
     width: 100%;
 } */
+header{
+    color: white;
+}
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
 
 .container{
     width: 80%;
@@ -23,7 +30,16 @@
     top: 0;
     left: 0;
     margin: auto;
-    height: 500px;
+    min-height: 100px;
+    z-index: 1;
+    /* background-color: green; */
+}
+
+.container2{
+    width: 65%;
+    margin: auto;
+    /* height: 500px; */
+    position: relative;
     z-index: 1;
     /* background-color: green; */
 }
@@ -43,6 +59,7 @@
     color: white;
 }
 
+/* HEADER */
 header{
     background-image: url("https://www.fluentify.com/home/wp-content/uploads/2020/01/fluentify-cover-privati-scaled.jpg");
     background-size: cover;
@@ -62,7 +79,7 @@ header::after {
     background: linear-gradient(270deg, transparent 0%, #001A4F 100%);
 }
 
-
+/* NAV */
 .header-menu{
     width: 67%;
     float: left;
@@ -154,4 +171,48 @@ header::after {
 
 .align-right{
     float: right;
+}
+
+/* JUMBOTRON */
+.jumbotron{
+    width: 64%;
+    color: white;
+    padding: 30px 0;
+
+}
+.jumbotron span{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 13px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.jumbotron a{
+    font-family: 'Maven Pro', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.jumbotron h1{
+    font-weight: bolder;
+    font-size: 50px;
+    padding: 10px 5px;
+}
+
+.jumbotron h3{
+    font-size: 17px;
+    padding: 0px 5px;
+}
+
+.aquista{
+    width: 28%;
+    margin-top: 30px;
+}
+
+.main{
+    background-color: red;
+    height: 500px;
 }
