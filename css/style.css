@@ -260,13 +260,41 @@ header::after {
     border-bottom: none;
 }
 
-.right-side h2{
+main h2{
     color: #011b50;
     font-weight: bold;
     font-size: 25px;
 }
 
-.right-side p{
+main p{
     color: #848484;
     padding-top: 10px;
+}
+
+.main2{
+    text-align: center;
+}
+
+.main2 h1{
+    font-size: 40px;
+    font-weight: bolder;
+    color: #737373;
+    padding: 40px 0;
+    padding-top: 100px;
+}
+
+.main2 p{
+    padding: 0 10px;
+    padding-bottom: 80px;
+}
+
+.what-you-need div{
+    width: 33.3333%;
+    float: left;
+}
+
+.what-you-need:after{
+    content: '';
+    display: table;
+    clear: both;
 }
