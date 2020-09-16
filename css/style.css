@@ -28,7 +28,7 @@
 }
 
 .button{
-    padding: 10px 5px;;
+    padding: 12px 25px;;
     background-color: #64DE82;
     border: 1px solid #64DE82;
     border-radius: 5px;
@@ -58,7 +58,7 @@ header::after {
 .header-menu{
     width: 70%;
     float: left;
-    height: 100px;
+    /* height: 100px; */
     /* background-color: red; */
     position: relative;
     font-family: 'Maven Pro', sans-serif;
@@ -69,16 +69,19 @@ header::after {
 
 .header-menu .logo{
     padding: 20px 10px;
+    padding-bottom: 0;
     float: left;
 }
 
 .header-menu ul{
-    padding: 31px 15px;
+    padding: 36px 15px;
+    padding-bottom: 0;
     float: left;
 }
 
 .header-menu li{
     display: inline-block;
+    margin: 0 5px;
 }
 
 .header-menu a{
@@ -89,10 +92,11 @@ header::after {
 
 .header-buttons-menu{
     width: 30%;
-    padding: 20px 0;
+    padding: 24px 0;
+    padding-bottom: 0;
     float: right;
     position: relative;
-    height: 100px;
+    /* height: 100px; */
     font-family: 'Maven Pro', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
@@ -103,7 +107,7 @@ header::after {
 .header-buttons-menu a{
     text-decoration: none;
     float: left;
-    margin-left: 30px;
+    margin-left: 20px;
     color: white;
 }
 
