@@ -65,6 +65,18 @@ h1 {
     color: white;
 }
 
+/* tutti i buttons */
+a div{
+    font-family: 'Maven Pro', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+a{
+    text-decoration: none;
+}
+
 /* HEADER */
 header{
     background-image: url("https://www.fluentify.com/home/wp-content/uploads/2020/01/fluentify-cover-privati-scaled.jpg");
@@ -89,13 +101,6 @@ header::after {
 .header-menu{
     width: 67%;
     float: left;
-    /* height: 100px; */
-    /* background-color: red; */
-    position: relative;
-    font-family: 'Maven Pro', sans-serif;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 12px;
 }
 
 .header-menu .logo{
@@ -114,11 +119,14 @@ header::after {
     display: inline-block;
     margin: 0 5px;
     position: relative;
+    font-family: 'Maven Pro', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
 }
 
 .header-menu a{
     padding: 10px;
-    text-decoration: none;
     color: white;
 }
 
@@ -142,10 +150,6 @@ header::after {
     float: right;
     position: relative;
     /* height: 100px; */
-    font-family: 'Maven Pro', sans-serif;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 12px;
     /* background-color: blue; */
 }
 
@@ -166,7 +170,6 @@ header::after {
 }
 
 .header-buttons-menu a{
-    text-decoration: none;
     float: left;
     color: white;
 }
@@ -194,14 +197,6 @@ header::after {
     text-transform: uppercase;
 }
 
-.jumbotron a{
-    font-family: 'Maven Pro', sans-serif;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 12px;
-}
-
 .jumbotron h1{
     font-weight: bolder;
     font-size: 50px;
@@ -218,9 +213,6 @@ header::after {
     margin-top: 30px;
 }
 
-.main{
-    /* background-color: red; */
-}
 
 .main::after{
     content: '';
@@ -337,7 +329,6 @@ main p{
 }
 
 .left-side-text a {
-    text-decoration: none;
     color: #64de82;
     font-family: 'Maven Pro', sans-serif;
     font-weight: bolder;
@@ -362,7 +353,6 @@ main p{
 
 .secure{
     background-color: white;
-    min-height: 200px;
 }
 
 .secure:after{
@@ -371,13 +361,66 @@ main p{
     clear: both;
 }
 
+.left-photo {
+    width: 50%;
+    float: left;
+}
+
+.left-photo img {
+    position: relative;
+    top: 50px;
+    left: 32px;
+}
+
+.right-side-text{
+    width: 50%;
+    float: left;
+}
+
+.right-side-text h2{
+    padding-top: 150px;
+    font-size: 30px;
+}
+
+.right-side-text p {
+    padding-bottom: 175px;
+    font-size: 19px;
+    font-weight: lighter;
+}
+
 .piano-di-studi{
     background-color: #2a4781;
-    min-height: 200px;
 }
 
 .piano-di-studi:after{
     content: '';
     display: table;
     clear: both;
+}
+
+.left-side-text2{
+    width: 50%;
+    float: left;
+}
+
+.left-side-text2 h1 {
+    padding: 26px 0 35px 0;
+    font-size: 41px;
+}
+
+.right-side-text2{
+    width: 50%;
+    float: left;
+}
+
+.right-side-text2 p {
+    color: #e7eaef;
+    padding: 35px 56px 12px 0;
+    padding-bottom: 12px;
+    font-size: 19px;
+    font-weight: lighter;
+}
+
+.right-side-text2 div{
+    width: 32%;
 }
