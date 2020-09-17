@@ -74,6 +74,9 @@ a{
     text-decoration: none;
 }
 
+ul li{
+    list-style-type: none;
+}
 /* HEADER */
 header{
     color: white;
@@ -433,5 +436,61 @@ main p{
 
 /* FOOTER */
 footer{
+    background-color: #001a4f;
+    height: 400px;
+}
 
+footer div{
+        border: 1px solid black;
+}
+
+.footer{
+    background-color: lightblue;
+    height: 400px;
+}
+
+.footer:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.credits{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.credits img{
+    width: 65%;
+    padding: 20px 0px;
+    margin-left: calc(35% /2);
+}
+
+.top-footer{
+    width: 80%;
+    height: 50%;
+    float: left;
+}
+
+.top-footer:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.footer-box{
+    width: calc(100% / 6);
+    height: 100%;
+    float: left;
+}
+
+.bottom-footer{
+    width: 80%;
+    height: 50%;
+    float: left;
+}
+
+.bottom-footer li{
+    display: inline-block;
 }
