@@ -445,7 +445,7 @@ footer div{
 }
 
 .footer{
-    background-color: lightblue;
+    /* background-color: lightblue; */
     height: 400px;
 }
 
@@ -455,6 +455,10 @@ footer div{
     clear: both;
 }
 
+.footer a:hover{
+    color: rgba(100,222,130,0.7);
+}
+
 .credits{
     width: 20%;
     height: 100%;
@@ -462,9 +466,39 @@ footer div{
 }
 
 .credits img{
-    width: 65%;
-    padding: 20px 0px;
-    margin-left: calc(35% /2);
+    width: 55%;
+    padding: 50px 0px 20px 0px;
+}
+
+.credits h5{
+    color: white;
+    font-weight: bolder;
+    font-size: 14px;
+    padding-top: 45px;
+}
+
+.credits p{
+    color: lightgrey;
+    font-size: 13px;
+}
+
+.credits p:last-of-type{
+    padding-bottom: 20px;
+}
+
+.credits a{
+    color: lightgrey;
+    font-size: 15px;
+}
+
+.socials{
+    padding-top: 15px;
+}
+
+.socials a{
+    color: #64de82;
+    font-size: 20px;
+    padding: 15px 15px 0 0;
 }
 
 .top-footer{
