@@ -15,9 +15,6 @@
 /* .wrapper{
     width: 100%;
 } */
-header{
-    color: white;
-}
 
 h1, h2, h3, h4, h5, h6, p {
     font-family: 'Poppins', sans-serif;
@@ -51,7 +48,7 @@ h1 {
 }
 
 .button{
-    padding: 12px 32px;;
+    padding: 12px 30px;;
     color: #337142;
     background-color: #64DE82;
     border: 1px solid #64DE82;
@@ -70,7 +67,7 @@ a div{
     font-family: 'Maven Pro', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 a{
@@ -79,6 +76,7 @@ a{
 
 /* HEADER */
 header{
+    color: white;
     background-image: url("https://www.fluentify.com/home/wp-content/uploads/2020/01/fluentify-cover-privati-scaled.jpg");
     background-size: cover;
     background-position: center;
@@ -104,9 +102,13 @@ header::after {
 }
 
 .header-menu .logo{
-    padding: 20px 5px;
+    padding: 12px 0px;
     padding-bottom: 0;
     float: left;
+}
+
+.header-menu .logo img{
+    width: 140px;
 }
 
 .header-menu ul{
@@ -126,7 +128,7 @@ header::after {
 }
 
 .header-menu a{
-    padding: 10px;
+    padding: 3px 8px;
     color: white;
 }
 
@@ -175,7 +177,9 @@ header::after {
 }
 
 .header-buttons-menu a:last-child{
-    padding: 11px 5px;
+    padding: 15px 5px;
+    text-transform: uppercase;
+    font-size: 14px;
 }
 
 .align-right{
@@ -199,7 +203,7 @@ header::after {
 
 .jumbotron h1{
     font-weight: bolder;
-    font-size: 50px;
+    font-size: 55px;
     padding: 10px 5px;
 }
 
@@ -209,11 +213,12 @@ header::after {
 }
 
 .aquista{
-    width: 28%;
+    width: 30%;
     margin-top: 30px;
+    margin-bottom: 50px;
 }
 
-
+/* DOUBLE-MAIN */
 .main::after{
     content: '';
     display: table;
@@ -287,7 +292,7 @@ main p{
 }
 
 .what-you-need div{
-    width: 33.3333%;
+    width: calc(100% / 3);
     float: left;
 }
 
@@ -297,6 +302,7 @@ main p{
     clear: both;
 }
 
+/* MAIN3 */
 .mobile{
     background-color: #011b50;
 }
@@ -314,7 +320,8 @@ main p{
 
 .left-side-text h1 {
     font-size: 38px;
-    padding-top: 40px;
+    padding-top: 60px;
+    padding-left: 0;
 }
 
 
@@ -325,7 +332,7 @@ main p{
 }
 
 .padding{
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 }
 
 .left-side-text a {
@@ -345,7 +352,7 @@ main p{
 }
 
 .right-photo img{
-    width: 60%;
+    width: 68%;
     position: relative;
     bottom: -4px;
     left: 80px;
@@ -368,7 +375,7 @@ main p{
 
 .left-photo img {
     position: relative;
-    top: 50px;
+    top: 60px;
     left: 32px;
 }
 
@@ -378,12 +385,12 @@ main p{
 }
 
 .right-side-text h2{
-    padding-top: 150px;
+    padding-top: 165px;
     font-size: 30px;
 }
 
 .right-side-text p {
-    padding-bottom: 175px;
+    padding-bottom: 165px;
     font-size: 19px;
     font-weight: lighter;
 }
@@ -404,7 +411,7 @@ main p{
 }
 
 .left-side-text2 h1 {
-    padding: 26px 0 35px 0;
+    padding: 65px 0 65px 0;
     font-size: 41px;
 }
 
@@ -415,12 +422,16 @@ main p{
 
 .right-side-text2 p {
     color: #e7eaef;
-    padding: 35px 56px 12px 0;
-    padding-bottom: 12px;
+    padding: 70px 55px 15px 0;
     font-size: 19px;
     font-weight: lighter;
 }
 
 .right-side-text2 div{
-    width: 32%;
+    width: 38%;
+}
+
+/* FOOTER */
+footer{
+
 }
