@@ -440,13 +440,8 @@ footer{
     height: 400px;
 }
 
-footer div{
-        border: 1px solid black;
-}
-
 .footer{
     /* background-color: lightblue; */
-    height: 400px;
 }
 
 .footer:after{
@@ -460,26 +455,26 @@ footer div{
 }
 
 .credits{
-    width: 20%;
-    height: 100%;
+    width: 15%;
     float: left;
 }
 
 .credits img{
-    width: 55%;
+    width: 70%;
     padding: 50px 0px 20px 0px;
 }
 
 .credits h5{
     color: white;
     font-weight: bolder;
-    font-size: 14px;
-    padding-top: 45px;
+    font-size: 15px;
+    padding-top: 40px;
 }
 
 .credits p{
     color: lightgrey;
-    font-size: 13px;
+    font-size: 14px;
+    padding: 3px 0;
 }
 
 .credits p:last-of-type{
@@ -502,9 +497,9 @@ footer div{
 }
 
 .top-footer{
-    width: 80%;
-    height: 50%;
+    width: 83%;
     float: left;
+    border-bottom: 1px solid lightgrey;
 }
 
 .top-footer:after{
@@ -513,18 +508,44 @@ footer div{
     clear: both;
 }
 
+.top-footer ul{
+    padding-bottom: 90px;
+}
+
 .footer-box{
     width: calc(100% / 6);
-    height: 100%;
     float: left;
 }
 
+.footer-box h5{
+    color: white;
+    padding-top: 53px;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.footer-box li{
+    padding: 5px;
+}
+
+.footer-box a{
+    color: lightgrey;
+    font-family:  'Maven Pro', sans-serif;
+    font-size: 15px;
+}
+
 .bottom-footer{
-    width: 80%;
-    height: 50%;
+    width: 83%;
     float: left;
 }
 
 .bottom-footer li{
     display: inline-block;
+    padding: 50px 80px 0px 0px;;
+}
+
+.bottom-footer a{
+    color:white;
+    font-family:  'Maven Pro', sans-serif;
+    font-size: 14px;
 }
